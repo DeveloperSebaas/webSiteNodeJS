@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <%- include('partials/head.html') %> 
+    <title><%= title %></title> 
+  </head>
+
+  <body>
+    <%- include('partials/navigation.html') %> 
+    
+    <div class="container">
+      <header class="row panel">
+        <div class="col-lg-12 text-center">
+          <img src="/img/logo.svg" class="animate__animated animate__lightSpeedInRight" alt="Imagen">
+        </div>
+      </header>
+    </div>
+
+    <!-- Section One -->
+    <div class="container-fluid" id="about">
+      <div class="row bg-dark text-white p-5 text-center">
+        <div class="col-sm-6">
+          <i class="fab fa-youtube fa-10x"></i>
+        </div>
+        <div class="col-sm-6">
+          <h3>Lorem ipsum dolor sit amet</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam nisi tempore eligendi. Atque quod
+            reiciendis repellat quae cumque placeat dolores. Impedit optio ipsum rem laborum nemo quos voluptas dolor
+            deserunt harum alias adipisci velit earum modi ad, iste maxime veritatis quasi repudiandae beatae cupiditate
+            aliquam nisi neque nulla laudantium. Ullam?</p>
+        </div>
+      </div>
+    </div>
+
+    <%- include('partials/footer.html') %> 
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/dc545368f0.js" crossorigin="anonymous"></script>
+  </body>
+</html>
